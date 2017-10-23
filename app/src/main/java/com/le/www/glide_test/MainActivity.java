@@ -9,5 +9,11 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+//        Glide.with(MainActivity.this)
+//                .load("myUrl")
+//                .into(imageView);
+
     }
 }
